@@ -10,3 +10,5 @@ El usuario podra:
 - LLevar a cabo el test de fracciones
 - Guardar su puntuación
 - Visualizar puntuaciones (en tabla y grafico)
+
+<img src="Media/login" width=%40/>
