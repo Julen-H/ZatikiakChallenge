@@ -12,3 +12,6 @@ El usuario podra:
 - Visualizar puntuaciones (en tabla y grafico)
 
 <img src="/Media/login.PNG" width=%40><img/>
+<img src="/Media/quiz.PNG" width=%40><img/>
+<img src="/Media/taula.PNG" width=%40><img/>
+<img src="/Media/grafikoa.PNG" width=%40><img/>
