@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="809.0" prefWidth="974.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dambat.controller.ZatikikalkuController">
+   <children>
+      <Label layoutX="339.0" layoutY="77.0" prefHeight="31.0" prefWidth="297.0" text="ZATIKIEN AZTERKETA! ZORTE ON!">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <!-- 1 zatikia zenbakitzailea-->
+      <Label fx:id="zenbakitzaileBat" layoutX="171.0" layoutY="130.0" prefHeight="53.0" prefWidth="96.0" style="-fx-border-color: black;" text="" />
+      <!-- 1 zatikia izendatzailea-->
+      <Label fx:id="izendatzaileBat" layoutX="171.0" layoutY="244.0" prefHeight="53.0" prefWidth="96.0" style="-fx-border-color: black;" text="" />
+      <Line endX="5.0" layoutX="266.0" layoutY="217.0" startX="-100.0" />
+      <!-- eragiketa ikurra -->
+      <Label fx:id="eragiketaIkurra" layoutX="319.0" layoutY="201.0" opacity="1" prefHeight="31.0" prefWidth="47.0" style="-fx-border-color: black;" text="+" />
+      <!-- 2 zatikia zenbakitzailea-->
+      <Label fx:id="zenbakitzaileBi" layoutX="416.0" layoutY="139.0" prefHeight="53.0" prefWidth="96.0" style="-fx-border-color: black;" text="" />
+      <!-- 2 zatikia izendatzailea-->
+      <Label fx:id="izendatzaileBi" layoutX="416.0" layoutY="244.0" prefHeight="53.0" prefWidth="96.0" style="-fx-border-color: black;" text="" />
+      <Line endX="5.0" layoutX="511.0" layoutY="217.0" startX="-100.0" />
+      <!-- eragiketa emaitza-->
+      <TextField fx:id="emaitzaSartu" layoutX="621.0" layoutY="194.0" prefHeight="46.0" prefWidth="90.0" text="" />
+      <Label layoutX="196.0" layoutY="368.0" prefHeight="31.0" prefWidth="157.0" text="ZURE EMAITZA =&gt;">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="757.0" layoutY="108.0" prefHeight="31.0" prefWidth="145.0" text="ASMATUTAKOAK">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="784.0" layoutY="228.0" prefHeight="31.0" prefWidth="90.0" text="OKERRAK">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <!-- ebatzi botoia -->
+      <Button fx:id="ebatziBotoia" layoutX="499.0" layoutY="360.0" mnemonicParsing="false" onAction="#zuzenduAriketa" prefHeight="46.0" prefWidth="90.0" text="EBATZI" />
+      <!-- berdin ikurra -->
+      <Label layoutX="553.0" layoutY="202.0" prefHeight="31.0" prefWidth="47.0" style="-fx-border-color: black;" text="=" />
+      <!-- Okerrak-->
+      <Label fx:id="asmatutakoakPuntuazioa" layoutX="781.0" layoutY="156.0" prefHeight="53.0" prefWidth="96.0" style="-fx-border-color: black;" text="" />
+      <!-- asmatutakoak-->
+      <Label fx:id="okerrakPuntuazioa" layoutX="781.0" layoutY="270.0" prefHeight="53.0" prefWidth="96.0" style="-fx-border-color: black;" text="" />
+      <!-- Emaitza orokorra -->
+      <Label fx:id="emaitzaOrokorra" layoutX="375.0" layoutY="357.0" prefHeight="53.0" prefWidth="96.0" style="-fx-border-color: black;" text="" />
+      <!-- Hasi botoia -->
+      
+      <!-- Bigarren blokea -->
+      <Button fx:id="hasiBotoia" layoutX="621.0" layoutY="360.0" mnemonicParsing="false" onAction="#hasiTesta" prefHeight="46.0" prefWidth="130.0" text="HASI/HURRENGOA" />
+      <Button fx:id="prButton" layoutX="385.0" layoutY="464.0" mnemonicParsing="false" onAction="#datuaktxertatu" prefHeight="46.0" prefWidth="178.0" text="PUNTUAZIOA ERREGISTRATU" />
+      <Line endX="540.0" layoutX="254.0" layoutY="423.0" startX="-100.0" />
+
+      <!-- Datuak prestatzeko -->
+      <Button fx:id="prestatuButton" layoutX="158.0" layoutY="464.0" mnemonicParsing="false" onAction="#datuakprestatu" prefHeight="46.0" prefWidth="178.0" text="DATUAK PRESTATU" />
+      <Label fx:id="prmezua" layoutX="385.0" layoutY="546.0" text="PRESTATU ETA ERREGISTRATU MEZUA" />
+      <Label layoutX="226.0" layoutY="608.0" text="DNI" />
+      <Label layoutX="210.0" layoutY="656.0" text="IZENA" />
+      <Label layoutX="195.0" layoutY="703.0" text="ABIZENA" />
+      <Label layoutX="576.0" layoutY="608.0" text="ADINA" />
+      <Label layoutX="544.0" layoutY="656.0" text="OKUPAZIOA" />
+      <Label layoutX="540.0" layoutY="703.0" text="PUNTUAZIOA" />
+
+      <ImageView fitHeight="96.0" fitWidth="96.0">
+         <image>
+            <Image url="@loginicon.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="useridLabel" layoutX="107.0" layoutY="40.0" text="DNI" />
+      <Button fx:id="backButton" layoutX="613.0" layoutY="464.0" mnemonicParsing="false" onAction="#menurabuelta" prefHeight="46.0" prefWidth="178.0" text="BUELTATU MENURA" />
+      <TextField fx:id="prdniLabel" layoutX="253.0" layoutY="604.0" />
+      <TextField fx:id="prizenaLabel" layoutX="252.0" layoutY="652.0" />
+      <TextField fx:id="prabizenaLabel" layoutX="253.0" layoutY="699.0" />
+      <TextField fx:id="pradinaLabel" layoutX="628.0" layoutY="604.0" />
+      <TextField fx:id="prokupLabel" layoutX="628.0" layoutY="652.0" />
+      <TextField fx:id="prpuntuazioaLabel" layoutX="628.0" layoutY="699.0" />
+   </children>
+</Pane>

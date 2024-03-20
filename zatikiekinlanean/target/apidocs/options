@@ -1,0 +1,28 @@
+--class-path
+'C:/Users/Julen/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar;C:/Users/Julen/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar;C:/Users/Julen/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar;C:/Users/Julen/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar;C:/Users/Julen/.m2/repository/org/xerial/sqlite-jdbc/3.36.0/sqlite-jdbc-3.36.0.jar'
+--module-path
+'C:/Users/Julen/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-win.jar;C:/Users/Julen/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-win.jar;C:/Users/Julen/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-win.jar;C:/Users/Julen/Desktop/ZATIKIEN JOLASA/zatikiekinlanean/target/zatikiekinlanean-1.0-SNAPSHOT.jar;C:/Users/Julen/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-win.jar'
+--patch-module
+dambat='C:/Users/Julen/Desktop/ZATIKIEN JOLASA/zatikiekinlanean/src/main/java;C:/Users/Julen/Desktop/ZATIKIEN JOLASA/zatikiekinlanean/target/generated-sources/annotations'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+--module-source-path
+'C:/Users/Julen/Desktop/ZATIKIEN JOLASA/zatikiekinlanean/target/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Julen/Desktop/ZATIKIEN JOLASA/zatikiekinlanean/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'zatikiekinlanean 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'zatikiekinlanean 1.0-SNAPSHOT API'

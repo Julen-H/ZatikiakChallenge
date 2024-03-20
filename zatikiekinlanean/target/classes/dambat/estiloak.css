@@ -1,0 +1,11 @@
+.label {
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+    -fx-font: bold;
+}
+
+.textfield {
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+}
+

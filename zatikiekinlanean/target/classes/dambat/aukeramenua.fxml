@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="809.0" prefWidth="974.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dambat.controller.Aukeramenuacontroller">
+   <children>
+      <ImageView fitHeight="166.0" fitWidth="300.0" layoutX="14.0" layoutY="586.0">
+         <image>
+            <Image url="@LogoUniEibar.JPG" />
+         </image>
+      </ImageView>
+      <Pane layoutX="696.0" layoutY="534.0">
+         <children>
+            <ImageView fitHeight="269.0" fitWidth="271.0">
+               <image>
+                  <Image url="@zatikiak%20logo.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="azterketaButton" layoutX="383.0" layoutY="232.0" mnemonicParsing="false" onAction="#azterketaEgin" prefHeight="59.0" prefWidth="211.0" text="ZATIKIEN AZTERKETA EGIN" />
+      <Button fx:id="taulaButton" layoutX="367.0" layoutY="368.0" mnemonicParsing="false" onAction="#taulaikusi" prefHeight="59.0" prefWidth="240.0" text="PUNTUAZIO ALTUENEN TAULA IKUSI" />
+      <Button fx:id="grafikoaButton" layoutX="360.0" layoutY="512.0" mnemonicParsing="false" onAction="#grafikoaikusi" prefHeight="59.0" prefWidth="254.0" text="PUNTUAZIO ALTUENEN GRAFIKOA IKUSI" />
+      <Label layoutX="386.0" layoutY="134.0" style="-fx-font-size: 20;" text="ZER NAHI DUZU EGIN?" />
+      <ImageView fitHeight="108.0" fitWidth="112.0">
+         <image>
+            <Image url="@loginicon.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="112.0" layoutY="46.0" text="DNI" />
+   </children>
+</Pane>
