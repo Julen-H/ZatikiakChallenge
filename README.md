@@ -11,4 +11,4 @@ El usuario podra:
 - Guardar su puntuación
 - Visualizar puntuaciones (en tabla y grafico)
 
-<img src="/Media/login.jpg" width=%40><img/>
+<img src="/Media/login.PNG" width=%40><img/>
